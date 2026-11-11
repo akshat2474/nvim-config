@@ -61,3 +61,6 @@ Authenticate inside Neovim via `:Leet cookie`.
 - `<leader>e` — Toggle file explorer
 - `<leader>cf` — Format buffer
 - `<C-h/j/k/l>` — Split navigation
+
+For step-by-step language workflows and detailed usage instructions, see [USAGE.md](USAGE.md).
+

@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Neovim swap and backup
+*.swp
+*.swo
+*~
+
+# Local environment / secrets
+.env
+.local

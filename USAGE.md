@@ -185,3 +185,20 @@ C++ is set as the default language. To switch to Python 3 or another language:
 | | `<leader>bd` | Close buffer |
 | | `<leader>w` or `<C-s>` | Save file |
 | | `<leader>q` | Quit |
+
+---
+
+## 7. VS Code LeetCode & Striver's Sheet Integration
+
+### Sidebar Tree View
+Inside VS Code's LeetCode view (`LeetCode: Problems` in the Activity Bar):
+- **Striver's SDE Sheet**: Expandable tree containing all 165+ curated problems in standard sheet order, formatted with problem ID, title, difficulty badge (`E`, `M`, `H`), and accepted status (`✓`).
+- **Striver (by Topic)**: Grouped into 13 interview topics (Arrays, Linked List, DP, Trees, Graphs, etc.).
+- Clicking any problem opens the question description and editor directly in VS Code.
+
+### Keyboard Shortcuts (VS Code)
+- `Cmd + Shift + L` — Open LeetCode & Striver quick selector menu (Sidebar focus, Quick Search, or LeetCode search).
+- `Cmd + S` — Submit active solution. When **Accepted**, automatically commits and pushes your solution to your private `akshat2474/leetcode-solutions` repository.
+- `Cmd + T` — Test active solution against testcases.
+- `Cmd + L` — View top solutions.
+
